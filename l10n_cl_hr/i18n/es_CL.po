@@ -4,22 +4,22 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 12.0+e-20190410\n"
+"Project-Id-Version: Odoo Server 14.0+e\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-05-07 22:36+0000\n"
-"PO-Revision-Date: 2019-05-07 18:38-0400\n"
-"Last-Translator: Nelson Ramírez <info@konos.cl>\n"
+"POT-Creation-Date: 2023-03-09 04:45+0000\n"
+"PO-Revision-Date: 2023-03-09 04:45+0000\n"
+"Last-Translator: \n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"Language: es_CL\n"
-"X-Generator: Poedit 2.2.1\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
 
 #. module: l10n_cl_hr
 #: model_terms:ir.ui.view,arch_db:l10n_cl_hr.view_salary_employee_month
-msgid "<span class=\"o_form_label\">Este wizard permite imprimir el total haberes</span>"
+msgid ""
+"<span class=\"o_form_label\">Este wizard permite imprimir el\n"
+"                        total haberes</span>"
 msgstr ""
 
 #. module: l10n_cl_hr
@@ -75,18 +75,23 @@ msgid "ASIGNACION FAMILIAR"
 msgstr ""
 
 #. module: l10n_cl_hr
-#: selection:hr.indicadores,month:0
+#: model:ir.model.fields.selection,name:l10n_cl_hr.selection__hr_indicadores__month__4
 msgid "Abril"
 msgstr ""
 
 #. module: l10n_cl_hr
-#: selection:hr.payslip,movimientos_personal:0
-#: selection:hr.payslip.run,movimientos_personal:0
+#: model:ir.model.fields.selection,name:l10n_cl_hr.selection__hr_payslip__movimientos_personal__6
+#: model:ir.model.fields.selection,name:l10n_cl_hr.selection__hr_payslip_run__movimientos_personal__6
 msgid "Accidentes del Trabajo"
 msgstr ""
 
 #. module: l10n_cl_hr
-#: selection:hr.indicadores,month:0
+#: model:ir.ui.menu,name:l10n_cl_hr.menu_cl_hr_payroll_addons
+msgid "Adicionales Nómina"
+msgstr ""
+
+#. module: l10n_cl_hr
+#: model:ir.model.fields.selection,name:l10n_cl_hr.selection__hr_indicadores__month__8
 msgid "Agosto"
 msgstr ""
 
@@ -99,6 +104,16 @@ msgstr ""
 #: model:ir.model.fields,field_description:l10n_cl_hr.field_hr_contract__aporte_voluntario
 #: model:ir.model.fields,help:l10n_cl_hr.field_hr_contract__aporte_voluntario
 msgid "Ahorro Previsional Voluntario (APV)"
+msgstr ""
+
+#. module: l10n_cl_hr
+#: model:ir.ui.menu,name:l10n_cl_hr.cl_hr_account_analytic_group_menu
+msgid "Analytic Account Groups"
+msgstr ""
+
+#. module: l10n_cl_hr
+#: model:ir.ui.menu,name:l10n_cl_hr.cl_hr_account_analytic_def_account
+msgid "Analytic Accounts"
 msgstr ""
 
 #. module: l10n_cl_hr
@@ -209,6 +224,11 @@ msgid "Asignación de Viático"
 msgstr ""
 
 #. module: l10n_cl_hr
+#: model:hr.leave.type,name:l10n_cl_hr.hr_holidays_sin_pago
+msgid "Ausentismo"
+msgstr ""
+
+#. module: l10n_cl_hr
 #: model:ir.model.fields,field_description:l10n_cl_hr.field_hr_indicadores__year
 msgid "Año"
 msgstr ""
@@ -216,6 +236,16 @@ msgstr ""
 #. module: l10n_cl_hr
 #: model:hr.salary.rule,name:l10n_cl_hr.hr_rule_7
 msgid "BONO DE PRODUCCION"
+msgstr ""
+
+#. module: l10n_cl_hr
+#: model:ir.ui.menu,name:l10n_cl_hr.cl_hr_partner_bank_account_tree_view
+msgid "Bank Accounts"
+msgstr ""
+
+#. module: l10n_cl_hr
+#: model:ir.model.fields.selection,name:l10n_cl_hr.selection__hr_indicadores__state__draft
+msgid "Borrador"
 msgstr ""
 
 #. module: l10n_cl_hr
@@ -267,8 +297,8 @@ msgid "Caja de Compensación"
 msgstr ""
 
 #. module: l10n_cl_hr
-#: selection:hr.payslip,movimientos_personal:0
-#: selection:hr.payslip.run,movimientos_personal:0
+#: model:ir.model.fields.selection,name:l10n_cl_hr.selection__hr_payslip__movimientos_personal__8
+#: model:ir.model.fields.selection,name:l10n_cl_hr.selection__hr_payslip_run__movimientos_personal__8
 msgid "Cambio Contrato plazo fijo a plazo indefinido"
 msgstr ""
 
@@ -331,9 +361,15 @@ msgid "Chilean Configuration"
 msgstr "Configuración Chile"
 
 #. module: l10n_cl_hr
+#: model:ir.model.fields,field_description:l10n_cl_hr.field_hr_rule_input__code
+msgid "Code"
+msgstr ""
+
+#. module: l10n_cl_hr
 #: model:ir.model.fields,field_description:l10n_cl_hr.field_hr_afp__codigo
 #: model:ir.model.fields,field_description:l10n_cl_hr.field_hr_apv__codigo
 #: model:ir.model.fields,field_description:l10n_cl_hr.field_hr_ccaf__codigo
+#: model:ir.model.fields,field_description:l10n_cl_hr.field_hr_contract__codigo
 #: model:ir.model.fields,field_description:l10n_cl_hr.field_hr_contract_type__codigo
 #: model:ir.model.fields,field_description:l10n_cl_hr.field_hr_isapre__codigo
 #: model:ir.model.fields,field_description:l10n_cl_hr.field_hr_mutual__codigo
@@ -348,29 +384,39 @@ msgid "Colación"
 msgstr ""
 
 #. module: l10n_cl_hr
-#: selection:wizard.export.csv.previred,delimiter_field_option:0
+#: model:ir.model.fields.selection,name:l10n_cl_hr.selection__wizard_export_csv_previred__delimiter_field_option__comma
 msgid "Coma(,)"
 msgstr ""
 
 #. module: l10n_cl_hr
-#: selection:wizard.export.csv.previred,delimiter_option:0
+#: model:ir.model.fields.selection,name:l10n_cl_hr.selection__wizard_export_csv_previred__delimiter_option__colon
 msgid "Comillas Dobles(\")"
 msgstr ""
 
 #. module: l10n_cl_hr
-#: selection:wizard.export.csv.previred,delimiter_option:0
+#: model:ir.model.fields.selection,name:l10n_cl_hr.selection__wizard_export_csv_previred__delimiter_option__semicolon
 msgid "Comillas Simples(')"
 msgstr ""
 
 #. module: l10n_cl_hr
-#: selection:hr.payslip,movimientos_personal:0
-#: selection:hr.payslip.run,movimientos_personal:0
+#: model:ir.model.fields,field_description:l10n_cl_hr.field_hr_contribution_register__company_id
+msgid "Company"
+msgstr ""
+
+#. module: l10n_cl_hr
+#: model:ir.model.fields,field_description:l10n_cl_hr.field_hr_contract_type__name
+msgid "Contract Type"
+msgstr ""
+
+#. module: l10n_cl_hr
+#: model:ir.model.fields.selection,name:l10n_cl_hr.selection__hr_payslip__movimientos_personal__7
+#: model:ir.model.fields.selection,name:l10n_cl_hr.selection__hr_payslip_run__movimientos_personal__7
 msgid "Contratación a plazo fijo"
 msgstr ""
 
 #. module: l10n_cl_hr
-#: selection:hr.payslip,movimientos_personal:0
-#: selection:hr.payslip.run,movimientos_personal:0
+#: model:ir.model.fields.selection,name:l10n_cl_hr.selection__hr_payslip__movimientos_personal__1
+#: model:ir.model.fields.selection,name:l10n_cl_hr.selection__hr_payslip_run__movimientos_personal__1
 msgid "Contratación a plazo indefinido"
 msgstr ""
 
@@ -419,6 +465,12 @@ msgid "Contrato Plazo Indefinido Trabajador"
 msgstr ""
 
 #. module: l10n_cl_hr
+#: model:ir.model,name:l10n_cl_hr.model_hr_contribution_register
+#: model:ir.model.fields,field_description:l10n_cl_hr.field_hr_payslip_line__register_id
+msgid "Contribution Register"
+msgstr ""
+
+#. module: l10n_cl_hr
 #: model_terms:ir.ui.view,arch_db:l10n_cl_hr.hr_indicadores_previsionales_view
 msgid "Cotizaciones"
 msgstr ""
@@ -440,9 +492,12 @@ msgstr ""
 #: model:ir.model.fields,field_description:l10n_cl_hr.field_hr_afp__create_uid
 #: model:ir.model.fields,field_description:l10n_cl_hr.field_hr_apv__create_uid
 #: model:ir.model.fields,field_description:l10n_cl_hr.field_hr_ccaf__create_uid
+#: model:ir.model.fields,field_description:l10n_cl_hr.field_hr_contract_type__create_uid
+#: model:ir.model.fields,field_description:l10n_cl_hr.field_hr_contribution_register__create_uid
 #: model:ir.model.fields,field_description:l10n_cl_hr.field_hr_indicadores__create_uid
 #: model:ir.model.fields,field_description:l10n_cl_hr.field_hr_isapre__create_uid
 #: model:ir.model.fields,field_description:l10n_cl_hr.field_hr_mutual__create_uid
+#: model:ir.model.fields,field_description:l10n_cl_hr.field_hr_rule_input__create_uid
 #: model:ir.model.fields,field_description:l10n_cl_hr.field_hr_salary_employee_month__create_uid
 #: model:ir.model.fields,field_description:l10n_cl_hr.field_hr_seguro_complementario__create_uid
 #: model:ir.model.fields,field_description:l10n_cl_hr.field_hr_type_employee__create_uid
@@ -454,9 +509,12 @@ msgstr "Creado por"
 #: model:ir.model.fields,field_description:l10n_cl_hr.field_hr_afp__create_date
 #: model:ir.model.fields,field_description:l10n_cl_hr.field_hr_apv__create_date
 #: model:ir.model.fields,field_description:l10n_cl_hr.field_hr_ccaf__create_date
+#: model:ir.model.fields,field_description:l10n_cl_hr.field_hr_contract_type__create_date
+#: model:ir.model.fields,field_description:l10n_cl_hr.field_hr_contribution_register__create_date
 #: model:ir.model.fields,field_description:l10n_cl_hr.field_hr_indicadores__create_date
 #: model:ir.model.fields,field_description:l10n_cl_hr.field_hr_isapre__create_date
 #: model:ir.model.fields,field_description:l10n_cl_hr.field_hr_mutual__create_date
+#: model:ir.model.fields,field_description:l10n_cl_hr.field_hr_rule_input__create_date
 #: model:ir.model.fields,field_description:l10n_cl_hr.field_hr_salary_employee_month__create_date
 #: model:ir.model.fields,field_description:l10n_cl_hr.field_hr_seguro_complementario__create_date
 #: model:ir.model.fields,field_description:l10n_cl_hr.field_hr_type_employee__create_date
@@ -476,6 +534,7 @@ msgstr ""
 
 #. module: l10n_cl_hr
 #: model:ir.model.fields,field_description:l10n_cl_hr.field_hr_payslip__movimientos_personal
+#: model_terms:ir.ui.view,arch_db:l10n_cl_hr.view_hr_payslip_inherit_form4
 msgid "Código Movimiento"
 msgstr ""
 
@@ -487,6 +546,11 @@ msgstr ""
 #. module: l10n_cl_hr
 #: model:ir.model.fields,help:l10n_cl_hr.field_hr_payslip__indicadores_id
 msgid "Defines Previred Forecast Indicators"
+msgstr ""
+
+#. module: l10n_cl_hr
+#: model:ir.ui.menu,name:l10n_cl_hr.cl_hr_menu_hr_department_tree
+msgid "Departments"
 msgstr ""
 
 #. module: l10n_cl_hr
@@ -506,23 +570,29 @@ msgid "Desc. Varios"
 msgstr ""
 
 #. module: l10n_cl_hr
+#: model:ir.model.fields,field_description:l10n_cl_hr.field_hr_contribution_register__note
+#: model:ir.model.fields,field_description:l10n_cl_hr.field_hr_rule_input__name
+msgid "Description"
+msgstr ""
+
+#. module: l10n_cl_hr
 #: model:hr.salary.rule.category,name:l10n_cl_hr.DED
 msgid "Descuentos"
 msgstr ""
 
 #. module: l10n_cl_hr
-#: code:addons/l10n_cl_hr/model/hr_payslip.py:57
+#: code:addons/l10n_cl_hr/model/hr_payslip.py:0
 #, python-format
 msgid "Dias de trabajo efectivos"
 msgstr ""
 
 #. module: l10n_cl_hr
-#: selection:hr.indicadores,month:0
+#: model:ir.model.fields.selection,name:l10n_cl_hr.selection__hr_indicadores__month__12
 msgid "Diciembre"
 msgstr ""
 
 #. module: l10n_cl_hr
-#: selection:hr.contract,forma_pago_apv:0
+#: model:ir.model.fields.selection,name:l10n_cl_hr.selection__hr_contract__forma_pago_apv__1
 msgid "Directa"
 msgstr ""
 
@@ -535,12 +605,25 @@ msgstr "Descuenta Fines de Semana"
 #: model:ir.model.fields,field_description:l10n_cl_hr.field_hr_afp__display_name
 #: model:ir.model.fields,field_description:l10n_cl_hr.field_hr_apv__display_name
 #: model:ir.model.fields,field_description:l10n_cl_hr.field_hr_ccaf__display_name
+#: model:ir.model.fields,field_description:l10n_cl_hr.field_hr_contract__display_name
+#: model:ir.model.fields,field_description:l10n_cl_hr.field_hr_contract_type__display_name
+#: model:ir.model.fields,field_description:l10n_cl_hr.field_hr_contribution_register__display_name
+#: model:ir.model.fields,field_description:l10n_cl_hr.field_hr_employee__display_name
 #: model:ir.model.fields,field_description:l10n_cl_hr.field_hr_indicadores__display_name
 #: model:ir.model.fields,field_description:l10n_cl_hr.field_hr_isapre__display_name
+#: model:ir.model.fields,field_description:l10n_cl_hr.field_hr_leave__display_name
+#: model:ir.model.fields,field_description:l10n_cl_hr.field_hr_leave_type__display_name
 #: model:ir.model.fields,field_description:l10n_cl_hr.field_hr_mutual__display_name
+#: model:ir.model.fields,field_description:l10n_cl_hr.field_hr_payslip__display_name
+#: model:ir.model.fields,field_description:l10n_cl_hr.field_hr_payslip_employees__display_name
+#: model:ir.model.fields,field_description:l10n_cl_hr.field_hr_payslip_line__display_name
+#: model:ir.model.fields,field_description:l10n_cl_hr.field_hr_payslip_run__display_name
+#: model:ir.model.fields,field_description:l10n_cl_hr.field_hr_rule_input__display_name
 #: model:ir.model.fields,field_description:l10n_cl_hr.field_hr_salary_employee_month__display_name
+#: model:ir.model.fields,field_description:l10n_cl_hr.field_hr_salary_rule__display_name
 #: model:ir.model.fields,field_description:l10n_cl_hr.field_hr_seguro_complementario__display_name
 #: model:ir.model.fields,field_description:l10n_cl_hr.field_hr_type_employee__display_name
+#: model:ir.model.fields,field_description:l10n_cl_hr.field_report_hr_payroll_report_payslipdetails__display_name
 #: model:ir.model.fields,field_description:l10n_cl_hr.field_report_l10n_cl_hr_report_hrsalarybymonth__display_name
 #: model:ir.model.fields,field_description:l10n_cl_hr.field_wizard_export_csv_previred__display_name
 msgid "Display Name"
@@ -552,9 +635,19 @@ msgid "Employee"
 msgstr "Empleado"
 
 #. module: l10n_cl_hr
+#: model:ir.model.fields,field_description:l10n_cl_hr.field_hr_contract__type_id
+msgid "Employee Category"
+msgstr ""
+
+#. module: l10n_cl_hr
 #: model:ir.model,name:l10n_cl_hr.model_hr_contract
 msgid "Employee Contract"
-msgstr "Contrato de empleado"
+msgstr ""
+
+#. module: l10n_cl_hr
+#: model:ir.ui.menu,name:l10n_cl_hr.cl_hr_menu_view_employee_category_form
+msgid "Employee Tags"
+msgstr ""
 
 #. module: l10n_cl_hr
 #: model:ir.model.fields,help:l10n_cl_hr.field_hr_employee__middle_name
@@ -572,8 +665,23 @@ msgid "End Date"
 msgstr "Fecha finalización"
 
 #. module: l10n_cl_hr
-#: selection:hr.indicadores,month:0
+#: model:ir.model.fields.selection,name:l10n_cl_hr.selection__hr_indicadores__month__1
 msgid "Enero"
+msgstr ""
+
+#. module: l10n_cl_hr
+#: model_terms:ir.ui.view,arch_db:l10n_cl_hr.l10n_cl_hr_salary_rule_view
+msgid "Entradas"
+msgstr ""
+
+#. module: l10n_cl_hr
+#: model:ir.model.fields,field_description:l10n_cl_hr.field_hr_indicadores__state
+msgid "Estado"
+msgstr ""
+
+#. module: l10n_cl_hr
+#: model:ir.model.fields,help:l10n_cl_hr.field_hr_payslip_line__register_id
+msgid "Eventual third party involved in the salary payment of the employees."
 msgstr ""
 
 #. module: l10n_cl_hr
@@ -587,12 +695,7 @@ msgid "FONDOS DE PENSION"
 msgstr ""
 
 #. module: l10n_cl_hr
-#: model:hr.leave.type,name:l10n_cl_hr.hr_holidays_sin_pago
-msgid "Falta"
-msgstr ""
-
-#. module: l10n_cl_hr
-#: selection:hr.indicadores,month:0
+#: model:ir.model.fields.selection,name:l10n_cl_hr.selection__hr_indicadores__month__2
 msgid "Febrero"
 msgstr ""
 
@@ -602,7 +705,6 @@ msgid "Fecha"
 msgstr ""
 
 #. module: l10n_cl_hr
-#: model:ir.model.fields,field_description:l10n_cl_hr.field_hr_payslip_line__date_end
 #: model:ir.model.fields,field_description:l10n_cl_hr.field_hr_salary_rule__date_end
 msgid "Fecha Fin"
 msgstr ""
@@ -623,7 +725,6 @@ msgid "Fecha Inicial"
 msgstr ""
 
 #. module: l10n_cl_hr
-#: model:ir.model.fields,field_description:l10n_cl_hr.field_hr_payslip_line__date_start
 #: model:ir.model.fields,field_description:l10n_cl_hr.field_hr_salary_rule__date_start
 msgid "Fecha Inicio"
 msgstr ""
@@ -634,7 +735,6 @@ msgid "Fecha Inicio MP"
 msgstr ""
 
 #. module: l10n_cl_hr
-#: model:ir.model.fields,help:l10n_cl_hr.field_hr_payslip_line__date_start
 #: model:ir.model.fields,help:l10n_cl_hr.field_hr_salary_rule__date_start
 msgid "Fecha de inicio de la regla salarial"
 msgstr ""
@@ -645,7 +745,6 @@ msgid "Fecha de inicio del movimiento de personal"
 msgstr ""
 
 #. module: l10n_cl_hr
-#: model:ir.model.fields,help:l10n_cl_hr.field_hr_payslip_line__date_end
 #: model:ir.model.fields,help:l10n_cl_hr.field_hr_salary_rule__date_end
 msgid "Fecha del fin de la regla salarial"
 msgstr ""
@@ -658,6 +757,11 @@ msgstr ""
 #. module: l10n_cl_hr
 #: model_terms:ir.ui.view,arch_db:l10n_cl_hr.hr_indicadores_previsionales_view
 msgid "Fijo Empleador"
+msgstr ""
+
+#. module: l10n_cl_hr
+#: model_terms:ir.ui.view,arch_db:l10n_cl_hr.view_hr_payslip_inherit_form4
+msgid "Fin MP"
 msgstr ""
 
 #. module: l10n_cl_hr
@@ -690,8 +794,7 @@ msgid "Fondos de Pensión"
 msgstr ""
 
 #. module: l10n_cl_hr
-#: code:addons/l10n_cl_hr/report/report_hr_salary_book.py:11
-#: code:addons/l10n_cl_hr/report/report_hr_salary_book.py:12
+#: code:addons/l10n_cl_hr/report/report_hr_salary_book.py:0
 #, python-format
 msgid "Form content is missing, this report cannot be printed."
 msgstr ""
@@ -716,7 +819,12 @@ msgstr ""
 #. module: l10n_cl_hr
 #: model:ir.model,name:l10n_cl_hr.model_hr_payslip_employees
 msgid "Generate payslips for all selected employees"
-msgstr "Generar las nóminas para todos los empleados seleccionados"
+msgstr "Generar los recibos de nómina para todos los empleados seleccionados"
+
+#. module: l10n_cl_hr
+#: model:ir.model.fields,help:l10n_cl_hr.field_hr_contract_type__sequence
+msgid "Gives the sequence when displaying a list of Contract."
+msgstr ""
 
 #. module: l10n_cl_hr
 #: model_terms:ir.ui.view,arch_db:l10n_cl_hr.report_hrsalarybymonth
@@ -760,6 +868,11 @@ msgid "Habitat"
 msgstr ""
 
 #. module: l10n_cl_hr
+#: model:ir.model,name:l10n_cl_hr.model_hr_payslip_line
+msgid "Hr Payslip Line Inherit"
+msgstr ""
+
+#. module: l10n_cl_hr
 #: model_terms:ir.ui.view,arch_db:l10n_cl_hr.hr_indicadores_previsionales_view
 msgid "I. Empleador"
 msgstr ""
@@ -778,16 +891,29 @@ msgstr ""
 #: model:ir.model.fields,field_description:l10n_cl_hr.field_hr_afp__id
 #: model:ir.model.fields,field_description:l10n_cl_hr.field_hr_apv__id
 #: model:ir.model.fields,field_description:l10n_cl_hr.field_hr_ccaf__id
+#: model:ir.model.fields,field_description:l10n_cl_hr.field_hr_contract__id
+#: model:ir.model.fields,field_description:l10n_cl_hr.field_hr_contract_type__id
+#: model:ir.model.fields,field_description:l10n_cl_hr.field_hr_contribution_register__id
+#: model:ir.model.fields,field_description:l10n_cl_hr.field_hr_employee__id
 #: model:ir.model.fields,field_description:l10n_cl_hr.field_hr_indicadores__id
 #: model:ir.model.fields,field_description:l10n_cl_hr.field_hr_isapre__id
+#: model:ir.model.fields,field_description:l10n_cl_hr.field_hr_leave__id
+#: model:ir.model.fields,field_description:l10n_cl_hr.field_hr_leave_type__id
 #: model:ir.model.fields,field_description:l10n_cl_hr.field_hr_mutual__id
+#: model:ir.model.fields,field_description:l10n_cl_hr.field_hr_payslip__id
+#: model:ir.model.fields,field_description:l10n_cl_hr.field_hr_payslip_employees__id
+#: model:ir.model.fields,field_description:l10n_cl_hr.field_hr_payslip_line__id
+#: model:ir.model.fields,field_description:l10n_cl_hr.field_hr_payslip_run__id
+#: model:ir.model.fields,field_description:l10n_cl_hr.field_hr_rule_input__id
 #: model:ir.model.fields,field_description:l10n_cl_hr.field_hr_salary_employee_month__id
+#: model:ir.model.fields,field_description:l10n_cl_hr.field_hr_salary_rule__id
 #: model:ir.model.fields,field_description:l10n_cl_hr.field_hr_seguro_complementario__id
 #: model:ir.model.fields,field_description:l10n_cl_hr.field_hr_type_employee__id
+#: model:ir.model.fields,field_description:l10n_cl_hr.field_report_hr_payroll_report_payslipdetails__id
 #: model:ir.model.fields,field_description:l10n_cl_hr.field_report_l10n_cl_hr_report_hrsalarybymonth__id
 #: model:ir.model.fields,field_description:l10n_cl_hr.field_wizard_export_csv_previred__id
 msgid "ID"
-msgstr ""
+msgstr "ID (identificación)"
 
 #. module: l10n_cl_hr
 #: model:hr.salary.rule,name:l10n_cl_hr.hr_rule_36
@@ -821,9 +947,14 @@ msgid "Imponible"
 msgstr ""
 
 #. module: l10n_cl_hr
-#: selection:hr.payslip,movimientos_personal:0
-#: selection:hr.payslip.run,movimientos_personal:0
+#: model:ir.model.fields.selection,name:l10n_cl_hr.selection__hr_payslip__movimientos_personal__5
+#: model:ir.model.fields.selection,name:l10n_cl_hr.selection__hr_payslip_run__movimientos_personal__5
 msgid "Incorporación en el Lugar de Trabajo"
+msgstr ""
+
+#. module: l10n_cl_hr
+#: model:hr.contract.type,name:l10n_cl_hr.hr_contract_type_more_eleven
+msgid "Indefinido 11 anos o mas"
 msgstr ""
 
 #. module: l10n_cl_hr
@@ -832,15 +963,15 @@ msgid "Independientes"
 msgstr ""
 
 #. module: l10n_cl_hr
-#: model:ir.actions.act_window,name:l10n_cl_hr.hr_indicadores_previsionales_action
 #: model:ir.model.fields,field_description:l10n_cl_hr.field_hr_payslip__indicadores_id
 #: model:ir.model.fields,field_description:l10n_cl_hr.field_hr_payslip_run__indicadores_id
-#: model:ir.ui.menu,name:l10n_cl_hr.hr_indicadores_previsionales_menu
 msgid "Indicadores"
 msgstr ""
 
 #. module: l10n_cl_hr
+#: model:ir.actions.act_window,name:l10n_cl_hr.hr_indicadores_previsionales_action
 #: model:ir.model,name:l10n_cl_hr.model_hr_indicadores
+#: model:ir.ui.menu,name:l10n_cl_hr.hr_indicadores_previsionales_menu
 #: model_terms:ir.ui.view,arch_db:l10n_cl_hr.hr_indicadores_previsionales_view
 msgid "Indicadores Previsionales"
 msgstr ""
@@ -856,8 +987,19 @@ msgid "Indice de Precios al Consumidor (IPC)"
 msgstr ""
 
 #. module: l10n_cl_hr
-#: selection:hr.contract,forma_pago_apv:0
+#: model:ir.model.fields.selection,name:l10n_cl_hr.selection__hr_contract__forma_pago_apv__2
 msgid "Indirecta"
+msgstr ""
+
+#. module: l10n_cl_hr
+#: model_terms:ir.ui.view,arch_db:l10n_cl_hr.view_hr_payslip_inherit_form4
+msgid "Inicio MP"
+msgstr ""
+
+#. module: l10n_cl_hr
+#: model:ir.model.fields,field_description:l10n_cl_hr.field_hr_salary_rule__input_ids
+#: model_terms:ir.ui.view,arch_db:l10n_cl_hr.l10n_cl_hr_salary_rule_view
+msgid "Inputs"
 msgstr ""
 
 #. module: l10n_cl_hr
@@ -902,6 +1044,13 @@ msgid "Instituto de Seguridad Laboral"
 msgstr ""
 
 #. module: l10n_cl_hr
+#: model_terms:ir.ui.view,arch_db:l10n_cl_hr.hr_indicadores_previsionales_view
+msgid ""
+"Ir a\n"
+"                                Previred"
+msgstr ""
+
+#. module: l10n_cl_hr
 #: model:ir.model.fields,field_description:l10n_cl_hr.field_hr_contract__isapre_cuenta_propia
 msgid "Isapre Cuenta Propia"
 msgstr ""
@@ -914,12 +1063,17 @@ msgid "Isapres"
 msgstr ""
 
 #. module: l10n_cl_hr
-#: selection:hr.indicadores,month:0
+#: model:ir.ui.menu,name:l10n_cl_hr.cl_hr_menu_hr_job_tree
+msgid "Job Positions"
+msgstr ""
+
+#. module: l10n_cl_hr
+#: model:ir.model.fields.selection,name:l10n_cl_hr.selection__hr_indicadores__month__7
 msgid "Julio"
 msgstr ""
 
 #. module: l10n_cl_hr
-#: selection:hr.indicadores,month:0
+#: model:ir.model.fields.selection,name:l10n_cl_hr.selection__hr_indicadores__month__6
 msgid "Junio"
 msgstr ""
 
@@ -927,12 +1081,25 @@ msgstr ""
 #: model:ir.model.fields,field_description:l10n_cl_hr.field_hr_afp____last_update
 #: model:ir.model.fields,field_description:l10n_cl_hr.field_hr_apv____last_update
 #: model:ir.model.fields,field_description:l10n_cl_hr.field_hr_ccaf____last_update
+#: model:ir.model.fields,field_description:l10n_cl_hr.field_hr_contract____last_update
+#: model:ir.model.fields,field_description:l10n_cl_hr.field_hr_contract_type____last_update
+#: model:ir.model.fields,field_description:l10n_cl_hr.field_hr_contribution_register____last_update
+#: model:ir.model.fields,field_description:l10n_cl_hr.field_hr_employee____last_update
 #: model:ir.model.fields,field_description:l10n_cl_hr.field_hr_indicadores____last_update
 #: model:ir.model.fields,field_description:l10n_cl_hr.field_hr_isapre____last_update
+#: model:ir.model.fields,field_description:l10n_cl_hr.field_hr_leave____last_update
+#: model:ir.model.fields,field_description:l10n_cl_hr.field_hr_leave_type____last_update
 #: model:ir.model.fields,field_description:l10n_cl_hr.field_hr_mutual____last_update
+#: model:ir.model.fields,field_description:l10n_cl_hr.field_hr_payslip____last_update
+#: model:ir.model.fields,field_description:l10n_cl_hr.field_hr_payslip_employees____last_update
+#: model:ir.model.fields,field_description:l10n_cl_hr.field_hr_payslip_line____last_update
+#: model:ir.model.fields,field_description:l10n_cl_hr.field_hr_payslip_run____last_update
+#: model:ir.model.fields,field_description:l10n_cl_hr.field_hr_rule_input____last_update
 #: model:ir.model.fields,field_description:l10n_cl_hr.field_hr_salary_employee_month____last_update
+#: model:ir.model.fields,field_description:l10n_cl_hr.field_hr_salary_rule____last_update
 #: model:ir.model.fields,field_description:l10n_cl_hr.field_hr_seguro_complementario____last_update
 #: model:ir.model.fields,field_description:l10n_cl_hr.field_hr_type_employee____last_update
+#: model:ir.model.fields,field_description:l10n_cl_hr.field_report_hr_payroll_report_payslipdetails____last_update
 #: model:ir.model.fields,field_description:l10n_cl_hr.field_report_l10n_cl_hr_report_hrsalarybymonth____last_update
 #: model:ir.model.fields,field_description:l10n_cl_hr.field_wizard_export_csv_previred____last_update
 msgid "Last Modified on"
@@ -948,9 +1115,12 @@ msgstr "Apellido"
 #: model:ir.model.fields,field_description:l10n_cl_hr.field_hr_afp__write_uid
 #: model:ir.model.fields,field_description:l10n_cl_hr.field_hr_apv__write_uid
 #: model:ir.model.fields,field_description:l10n_cl_hr.field_hr_ccaf__write_uid
+#: model:ir.model.fields,field_description:l10n_cl_hr.field_hr_contract_type__write_uid
+#: model:ir.model.fields,field_description:l10n_cl_hr.field_hr_contribution_register__write_uid
 #: model:ir.model.fields,field_description:l10n_cl_hr.field_hr_indicadores__write_uid
 #: model:ir.model.fields,field_description:l10n_cl_hr.field_hr_isapre__write_uid
 #: model:ir.model.fields,field_description:l10n_cl_hr.field_hr_mutual__write_uid
+#: model:ir.model.fields,field_description:l10n_cl_hr.field_hr_rule_input__write_uid
 #: model:ir.model.fields,field_description:l10n_cl_hr.field_hr_salary_employee_month__write_uid
 #: model:ir.model.fields,field_description:l10n_cl_hr.field_hr_seguro_complementario__write_uid
 #: model:ir.model.fields,field_description:l10n_cl_hr.field_hr_type_employee__write_uid
@@ -962,25 +1132,18 @@ msgstr "Última actualización por"
 #: model:ir.model.fields,field_description:l10n_cl_hr.field_hr_afp__write_date
 #: model:ir.model.fields,field_description:l10n_cl_hr.field_hr_apv__write_date
 #: model:ir.model.fields,field_description:l10n_cl_hr.field_hr_ccaf__write_date
+#: model:ir.model.fields,field_description:l10n_cl_hr.field_hr_contract_type__write_date
+#: model:ir.model.fields,field_description:l10n_cl_hr.field_hr_contribution_register__write_date
 #: model:ir.model.fields,field_description:l10n_cl_hr.field_hr_indicadores__write_date
 #: model:ir.model.fields,field_description:l10n_cl_hr.field_hr_isapre__write_date
 #: model:ir.model.fields,field_description:l10n_cl_hr.field_hr_mutual__write_date
+#: model:ir.model.fields,field_description:l10n_cl_hr.field_hr_rule_input__write_date
 #: model:ir.model.fields,field_description:l10n_cl_hr.field_hr_salary_employee_month__write_date
 #: model:ir.model.fields,field_description:l10n_cl_hr.field_hr_seguro_complementario__write_date
 #: model:ir.model.fields,field_description:l10n_cl_hr.field_hr_type_employee__write_date
 #: model:ir.model.fields,field_description:l10n_cl_hr.field_wizard_export_csv_previred__write_date
 msgid "Last Updated on"
 msgstr "Última actualización el"
-
-#. module: l10n_cl_hr
-#: model:ir.model,name:l10n_cl_hr.model_hr_leave
-msgid "Leave"
-msgstr "Ausencia"
-
-#. module: l10n_cl_hr
-#: model:ir.model,name:l10n_cl_hr.model_hr_leave_type
-msgid "Leave Type"
-msgstr "Tipo de ausencia"
 
 #. module: l10n_cl_hr
 #: model:ir.actions.report,name:l10n_cl_hr.hr_salary_books
@@ -998,7 +1161,7 @@ msgstr ""
 
 #. module: l10n_cl_hr
 #: model:hr.leave.type,name:l10n_cl_hr.hr_holidays_status_licencia
-msgid "Licencia"
+msgid "Licencia Médica"
 msgstr ""
 
 #. module: l10n_cl_hr
@@ -1022,12 +1185,17 @@ msgid "MUTUAL SEGURIDAD"
 msgstr ""
 
 #. module: l10n_cl_hr
-#: selection:hr.indicadores,month:0
+#: model:ir.model.fields.selection,name:l10n_cl_hr.selection__hr_indicadores__month__3
 msgid "Marzo"
 msgstr ""
 
 #. module: l10n_cl_hr
-#: selection:hr.indicadores,month:0
+#: model:ir.ui.menu,name:l10n_cl_hr.menu_cl_hr_payroll_master_data
+msgid "Master Data"
+msgstr ""
+
+#. module: l10n_cl_hr
+#: model:ir.model.fields.selection,name:l10n_cl_hr.selection__hr_indicadores__month__5
 msgid "Mayo"
 msgstr ""
 
@@ -1121,7 +1289,12 @@ msgid "Mutualidad"
 msgstr ""
 
 #. module: l10n_cl_hr
-#: selection:wizard.export.csv.previred,delimiter_option:0
+#: model:ir.model.fields,field_description:l10n_cl_hr.field_hr_contribution_register__name
+msgid "Name"
+msgstr ""
+
+#. module: l10n_cl_hr
+#: model:ir.model.fields.selection,name:l10n_cl_hr.selection__wizard_export_csv_previred__delimiter_option__none
 msgid "Ninguno"
 msgstr ""
 
@@ -1164,8 +1337,13 @@ msgid "Nombre de archivo"
 msgstr ""
 
 #. module: l10n_cl_hr
-#: selection:hr.indicadores,month:0
+#: model:ir.model.fields.selection,name:l10n_cl_hr.selection__hr_indicadores__month__11
 msgid "Noviembre"
+msgstr ""
+
+#. module: l10n_cl_hr
+#: model:ir.ui.menu,name:l10n_cl_hr.menu_cl_hr_payroll_base
+msgid "Nómina RRHH"
 msgstr ""
 
 #. module: l10n_cl_hr
@@ -1189,7 +1367,7 @@ msgid "OTROS NO IMPONIBLE"
 msgstr ""
 
 #. module: l10n_cl_hr
-#: selection:hr.indicadores,month:0
+#: model:ir.model.fields.selection,name:l10n_cl_hr.selection__hr_indicadores__month__10
 msgid "Octubre"
 msgstr ""
 
@@ -1235,8 +1413,8 @@ msgid "Otros Indicadores"
 msgstr ""
 
 #. module: l10n_cl_hr
-#: selection:hr.payslip,movimientos_personal:0
-#: selection:hr.payslip.run,movimientos_personal:0
+#: model:ir.model.fields.selection,name:l10n_cl_hr.selection__hr_payslip__movimientos_personal__11
+#: model:ir.model.fields.selection,name:l10n_cl_hr.selection__hr_payslip_run__movimientos_personal__11
 msgid "Otros Movimientos (Ausentismos)"
 msgstr ""
 
@@ -1272,14 +1450,14 @@ msgid "PREVISION EMPRESA AFP SIS"
 msgstr ""
 
 #. module: l10n_cl_hr
-#: model:ir.model,name:l10n_cl_hr.model_hr_payslip
-msgid "Pay Slip"
-msgstr "Nómina"
+#: model:ir.model.fields,field_description:l10n_cl_hr.field_hr_contribution_register__partner_id
+msgid "Partner"
+msgstr ""
 
 #. module: l10n_cl_hr
-#: model:ir.ui.menu,name:l10n_cl_hr.menu_cl_hr_payroll_indicators
-msgid "Payroll Indicators"
-msgstr "Indicadores Previred"
+#: model:ir.model,name:l10n_cl_hr.model_hr_payslip
+msgid "Pay Slip"
+msgstr "Recibo de nómina"
 
 #. module: l10n_cl_hr
 #: model:ir.model,name:l10n_cl_hr.model_report_hr_payroll_report_payslipdetails
@@ -1289,7 +1467,7 @@ msgstr "Reporte de Liquidaciones"
 #. module: l10n_cl_hr
 #: model:ir.model,name:l10n_cl_hr.model_hr_payslip_run
 msgid "Payslip Run"
-msgstr "Procesar Nómina"
+msgstr ""
 
 #. module: l10n_cl_hr
 #: model:ir.model.fields,field_description:l10n_cl_hr.field_hr_contract__pension
@@ -1303,9 +1481,19 @@ msgid "Pensiones IPS"
 msgstr ""
 
 #. module: l10n_cl_hr
-#: selection:hr.payslip,movimientos_personal:0
-#: selection:hr.payslip.run,movimientos_personal:0
+#: model:ir.model.fields.selection,name:l10n_cl_hr.selection__hr_payslip__movimientos_personal__4
+#: model:ir.model.fields.selection,name:l10n_cl_hr.selection__hr_payslip_run__movimientos_personal__4
 msgid "Permiso Sin Goce de Sueldos"
+msgstr ""
+
+#. module: l10n_cl_hr
+#: model:hr.leave.type,name:l10n_cl_hr.hr_holidays_permission_00
+msgid "Permiso con Goce de Sueldo"
+msgstr ""
+
+#. module: l10n_cl_hr
+#: model:hr.leave.type,name:l10n_cl_hr.hr_holidays_permission_01
+msgid "Permiso sin Goce de Sueldo"
 msgstr ""
 
 #. module: l10n_cl_hr
@@ -1314,15 +1502,25 @@ msgid "Período"
 msgstr ""
 
 #. module: l10n_cl_hr
-#: selection:hr.contract,aporte_voluntario_moneda:0
-#: selection:hr.contract,isapre_moneda:0
-#: selection:hr.contract,seguro_complementario_moneda:0
+#: model:ir.model.fields.selection,name:l10n_cl_hr.selection__hr_contract__aporte_voluntario_moneda__clp
+#: model:ir.model.fields.selection,name:l10n_cl_hr.selection__hr_contract__isapre_moneda__clp
+#: model:ir.model.fields.selection,name:l10n_cl_hr.selection__hr_contract__seguro_complementario_moneda__clp
 msgid "Pesos"
 msgstr ""
 
 #. module: l10n_cl_hr
 #: model:ir.model.fields,field_description:l10n_cl_hr.field_hr_indicadores__tasa_afp_planvital
 msgid "PlanVital"
+msgstr ""
+
+#. module: l10n_cl_hr
+#: model:hr.contract.type,name:l10n_cl_hr.hr_contract_type_fixed
+msgid "Plazo Fijo"
+msgstr ""
+
+#. module: l10n_cl_hr
+#: model:hr.contract.type,name:l10n_cl_hr.hr_contract_type_not_defined
+msgid "Plazo Indefinido"
 msgstr ""
 
 #. module: l10n_cl_hr
@@ -1340,6 +1538,11 @@ msgid "Prevision"
 msgstr ""
 
 #. module: l10n_cl_hr
+#: model:ir.ui.menu,name:l10n_cl_hr.menu_cl_hr_payroll_indicators
+msgid "Previsión"
+msgstr "Indicadores Previred"
+
+#. module: l10n_cl_hr
 #: model_terms:ir.ui.view,arch_db:l10n_cl_hr.view_salary_employee_month
 msgid "Print"
 msgstr "Imprimir"
@@ -1355,7 +1558,7 @@ msgid "ProVida"
 msgstr ""
 
 #. module: l10n_cl_hr
-#: selection:wizard.export.csv.previred,delimiter_field_option:0
+#: model:ir.model.fields.selection,name:l10n_cl_hr.selection__wizard_export_csv_previred__delimiter_field_option__dot_coma
 msgid "Punto y coma(;)"
 msgstr ""
 
@@ -1372,8 +1575,18 @@ msgid "RUT"
 msgstr ""
 
 #. module: l10n_cl_hr
-#: selection:hr.payslip,movimientos_personal:0
-#: selection:hr.payslip.run,movimientos_personal:0
+#: model:ir.model.fields,field_description:l10n_cl_hr.field_hr_contribution_register__register_line_ids
+msgid "Register Line"
+msgstr ""
+
+#. module: l10n_cl_hr
+#: model:ir.model.fields,field_description:l10n_cl_hr.field_hr_salary_rule__register_id
+msgid "Registro de Contribución"
+msgstr ""
+
+#. module: l10n_cl_hr
+#: model:ir.model.fields.selection,name:l10n_cl_hr.selection__hr_payslip__movimientos_personal__12
+#: model:ir.model.fields.selection,name:l10n_cl_hr.selection__hr_payslip_run__movimientos_personal__12
 msgid "Reliquidación, Premio, Bono"
 msgstr ""
 
@@ -1393,8 +1606,13 @@ msgid "Reports"
 msgstr "Informes"
 
 #. module: l10n_cl_hr
-#: selection:hr.payslip,movimientos_personal:0
-#: selection:hr.payslip.run,movimientos_personal:0
+#: model:ir.ui.menu,name:l10n_cl_hr.cl_hr_resource_calendar_leave_tree
+msgid "Resource Time Off"
+msgstr ""
+
+#. module: l10n_cl_hr
+#: model:ir.model.fields.selection,name:l10n_cl_hr.selection__hr_payslip__movimientos_personal__2
+#: model:ir.model.fields.selection,name:l10n_cl_hr.selection__hr_payslip_run__movimientos_personal__2
 msgid "Retiro"
 msgstr ""
 
@@ -1425,24 +1643,27 @@ msgstr ""
 #: model:ir.model.fields,field_description:l10n_cl_hr.field_hr_indicadores__tasa_independiente_modelo
 #: model:ir.model.fields,field_description:l10n_cl_hr.field_hr_indicadores__tasa_independiente_planvital
 #: model:ir.model.fields,field_description:l10n_cl_hr.field_hr_indicadores__tasa_independiente_provida
+#: model:ir.model.fields,field_description:l10n_cl_hr.field_hr_indicadores__tasa_independiente_uno
 #: model:ir.model.fields,field_description:l10n_cl_hr.field_hr_indicadores__tasa_sis_capital
 #: model:ir.model.fields,field_description:l10n_cl_hr.field_hr_indicadores__tasa_sis_cuprum
 #: model:ir.model.fields,field_description:l10n_cl_hr.field_hr_indicadores__tasa_sis_habitat
 #: model:ir.model.fields,field_description:l10n_cl_hr.field_hr_indicadores__tasa_sis_modelo
 #: model:ir.model.fields,field_description:l10n_cl_hr.field_hr_indicadores__tasa_sis_planvital
 #: model:ir.model.fields,field_description:l10n_cl_hr.field_hr_indicadores__tasa_sis_provida
+#: model:ir.model.fields,field_description:l10n_cl_hr.field_hr_indicadores__tasa_sis_uno
 msgid "SIS"
-msgstr ""
-
-#. module: l10n_cl_hr
-#: model:hr.salary.rule,name:l10n_cl_hr.hr_rule_1
-msgid "SUELDO BASE"
 msgstr ""
 
 #. module: l10n_cl_hr
 #: model:ir.model,name:l10n_cl_hr.model_hr_salary_rule
 msgid "Salary Rule"
-msgstr "Regla Salarial"
+msgstr "Regla salarial"
+
+#. module: l10n_cl_hr
+#: model:ir.model,name:l10n_cl_hr.model_hr_rule_input
+#: model:ir.model.fields,field_description:l10n_cl_hr.field_hr_rule_input__input_id
+msgid "Salary Rule Input"
+msgstr ""
 
 #. module: l10n_cl_hr
 #: model:hr.salary.rule.category,name:l10n_cl_hr.SALUD
@@ -1484,8 +1705,13 @@ msgid "Separador de Texto"
 msgstr ""
 
 #. module: l10n_cl_hr
-#: selection:hr.indicadores,month:0
+#: model:ir.model.fields.selection,name:l10n_cl_hr.selection__hr_indicadores__month__9
 msgid "Septiembre"
+msgstr ""
+
+#. module: l10n_cl_hr
+#: model:ir.model.fields,field_description:l10n_cl_hr.field_hr_contract_type__sequence
+msgid "Sequence"
 msgstr ""
 
 #. module: l10n_cl_hr
@@ -1494,14 +1720,14 @@ msgid "Show formatted vat"
 msgstr "Formato RUT"
 
 #. module: l10n_cl_hr
-#: selection:hr.payslip,movimientos_personal:0
-#: selection:hr.payslip.run,movimientos_personal:0
+#: model:ir.model.fields.selection,name:l10n_cl_hr.selection__hr_payslip__movimientos_personal__0
+#: model:ir.model.fields.selection,name:l10n_cl_hr.selection__hr_payslip_run__movimientos_personal__0
 msgid "Sin Movimiento en el Mes"
 msgstr ""
 
 #. module: l10n_cl_hr
-#: selection:hr.payslip,movimientos_personal:0
-#: selection:hr.payslip.run,movimientos_personal:0
+#: model:ir.model.fields.selection,name:l10n_cl_hr.selection__hr_payslip__movimientos_personal__3
+#: model:ir.model.fields.selection,name:l10n_cl_hr.selection__hr_payslip_run__movimientos_personal__3
 msgid "Subsidios (L Médicas)"
 msgstr ""
 
@@ -1513,6 +1739,11 @@ msgstr ""
 #. module: l10n_cl_hr
 #: model_terms:ir.ui.view,arch_db:l10n_cl_hr.report_hrsalarybymonth
 msgid "Sueldo Base"
+msgstr ""
+
+#. module: l10n_cl_hr
+#: model:hr.contract.type,name:l10n_cl_hr.hr_contract_type_enterprice_wage
+msgid "Sueldo Empresarial"
 msgstr ""
 
 #. module: l10n_cl_hr
@@ -1576,7 +1807,7 @@ msgid "TRIBUTABLE"
 msgstr ""
 
 #. module: l10n_cl_hr
-#: selection:wizard.export.csv.previred,delimiter_field_option:0
+#: model:ir.model.fields.selection,name:l10n_cl_hr.selection__wizard_export_csv_previred__delimiter_field_option__tab
 msgid "Tabulador"
 msgstr ""
 
@@ -1617,6 +1848,11 @@ msgid "Tasa AFP Provida"
 msgstr ""
 
 #. module: l10n_cl_hr
+#: model:ir.model.fields,help:l10n_cl_hr.field_hr_indicadores__tasa_afp_uno
+msgid "Tasa AFP Uno"
+msgstr ""
+
+#. module: l10n_cl_hr
 #: model_terms:ir.ui.view,arch_db:l10n_cl_hr.hr_indicadores_previsionales_view
 msgid "Tasa Cotización Obligatorio AFP"
 msgstr ""
@@ -1652,6 +1888,11 @@ msgid "Tasa Independientes Provida"
 msgstr ""
 
 #. module: l10n_cl_hr
+#: model:ir.model.fields,help:l10n_cl_hr.field_hr_indicadores__tasa_independiente_uno
+msgid "Tasa Independientes Uno"
+msgstr ""
+
+#. module: l10n_cl_hr
 #: model:ir.model.fields,help:l10n_cl_hr.field_hr_indicadores__tasa_sis_capital
 msgid "Tasa SIS Capital"
 msgstr ""
@@ -1682,9 +1923,29 @@ msgid "Tasa SIS Provida"
 msgstr ""
 
 #. module: l10n_cl_hr
+#: model:ir.model.fields,help:l10n_cl_hr.field_hr_indicadores__tasa_sis_uno
+msgid "Tasa SIS Uno"
+msgstr ""
+
+#. module: l10n_cl_hr
+#: model:ir.model.fields,help:l10n_cl_hr.field_hr_rule_input__code
+msgid "The code that can be used in the salary rules"
+msgstr ""
+
+#. module: l10n_cl_hr
 #: model_terms:ir.ui.view,arch_db:l10n_cl_hr.hr_indicadores_previsionales_view
 msgid "Tiene Mutual"
 msgstr ""
+
+#. module: l10n_cl_hr
+#: model:ir.model,name:l10n_cl_hr.model_hr_leave
+msgid "Time Off"
+msgstr "Ausencias"
+
+#. module: l10n_cl_hr
+#: model:ir.model,name:l10n_cl_hr.model_hr_leave_type
+msgid "Time Off Type"
+msgstr "Tipo de ausencia"
 
 #. module: l10n_cl_hr
 #: model_terms:ir.ui.view,arch_db:l10n_cl_hr.hr_contract_chile_view
@@ -1828,10 +2089,10 @@ msgid "Tramo C"
 msgstr ""
 
 #. module: l10n_cl_hr
-#: selection:hr.contract,aporte_voluntario_moneda:0
-#: selection:hr.contract,isapre_moneda:0
-#: selection:hr.contract,seguro_complementario_moneda:0
 #: model:ir.model.fields,field_description:l10n_cl_hr.field_hr_indicadores__uf
+#: model:ir.model.fields.selection,name:l10n_cl_hr.selection__hr_contract__aporte_voluntario_moneda__uf
+#: model:ir.model.fields.selection,name:l10n_cl_hr.selection__hr_contract__isapre_moneda__uf
+#: model:ir.model.fields.selection,name:l10n_cl_hr.selection__hr_contract__seguro_complementario_moneda__uf
 msgid "UF"
 msgstr ""
 
@@ -1876,6 +2137,11 @@ msgid "UTM Fin de Mes"
 msgstr ""
 
 #. module: l10n_cl_hr
+#: model:ir.model.fields,field_description:l10n_cl_hr.field_hr_indicadores__tasa_afp_uno
+msgid "Uno"
+msgstr ""
+
+#. module: l10n_cl_hr
 #: model_terms:ir.ui.view,arch_db:l10n_cl_hr.hr_indicadores_previsionales_view
 msgid "Update"
 msgstr "Actualizar"
@@ -1891,8 +2157,38 @@ msgid "VIATICO"
 msgstr ""
 
 #. module: l10n_cl_hr
+#: model:hr.leave.type,name:l10n_cl_hr.hr_holidays_vacations
+msgid "Vacaciones"
+msgstr ""
+
+#. module: l10n_cl_hr
+#: model:hr.leave.type,name:l10n_cl_hr.hr_holidays_progressive_vacations
+msgid "Vacaciones (Progresivas)"
+msgstr ""
+
+#. module: l10n_cl_hr
+#: model:ir.model.fields.selection,name:l10n_cl_hr.selection__hr_indicadores__state__done
+msgid "Validado"
+msgstr ""
+
+#. module: l10n_cl_hr
+#: model_terms:ir.ui.view,arch_db:l10n_cl_hr.hr_indicadores_previsionales_view
+msgid "Validar"
+msgstr ""
+
+#. module: l10n_cl_hr
 #: model_terms:ir.ui.view,arch_db:l10n_cl_hr.hr_indicadores_previsionales_view
 msgid "Valor UF"
+msgstr ""
+
+#. module: l10n_cl_hr
+#: model_terms:ir.ui.view,arch_db:l10n_cl_hr.hr_indicadores_previsionales_view
+msgid "Volver a borrador"
+msgstr ""
+
+#. module: l10n_cl_hr
+#: model:ir.ui.menu,name:l10n_cl_hr.cl_hr_resource_calendar_form
+msgid "Working Times"
 msgstr ""
 
 #. module: l10n_cl_hr

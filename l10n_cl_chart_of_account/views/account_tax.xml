@@ -81,7 +81,7 @@
           <field name="amount_retencion" />
         </xpath>
         <field name="amount_tax" position="after">
-          <field name="amount_retencion" attrs="{'invisible':[('amount_retencion', '=', 0)]}" />
+<!--          <field name="amount_retencion" attrs="{'invisible':[('amount_retencion', '=', 0)]}" />-->
         </field>
       </field>
     </record>
